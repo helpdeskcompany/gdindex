@@ -135,10 +135,7 @@ function nav(path) {
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" href="/${cur}:/">Home</a>
-      </li>`;
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">`;
     var names = window.drive_names;
     var drive_name = window.drive_names[cur];
 
@@ -149,7 +146,7 @@ function nav(path) {
     });
     html += `</div></li>`;
 
-    html += `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Back</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item"  href="/">> Home</a>`;
+    html += `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Back</a><div class="dropdown-menu" aria-labelledby="navbarDropdown">`;
 
     if (!model.is_search_page) {
         var arr = path.trim('/').split('/');
