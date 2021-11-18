@@ -1,12 +1,16 @@
-// Redesigned by t.me/TheFirstSpeedster from https://github.com/ParveenBhadooOfficial/Google-Drive-Index which was written by someone else, credits are given on Source Page.
-// v2.0.18
-// Initialize the page
 function init() {
     document.siteName = $('title').html();
     var html = `<header>
    <div id="nav">
    </div>
 </header>
+
+<!-- ads -->
+<script async="async" data-cfasync="false" src="//enacttournamentcute.com/431c08e561e893f7d1d28aafec657bb7/invoke.js"></script>
+<div id="container-431c08e561e893f7d1d28aafec657bb7"></div>
+<script type='text/javascript' src='//enacttournamentcute.com/e7/ac/40/e7ac40c905238906d8e9e956b914cd99.js'></script>
+<!-- end ads -->
+
 <div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
