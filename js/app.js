@@ -9,21 +9,6 @@ function init() {
 <script async="async" data-cfasync="false" src="//enacttournamentcute.com/431c08e561e893f7d1d28aafec657bb7/invoke.js"></script>
 <div id="container-431c08e561e893f7d1d28aafec657bb7"></div>
 <script type='text/javascript' src='//enacttournamentcute.com/e7/ac/40/e7ac40c905238906d8e9e956b914cd99.js'></script>
-<!-- Disable Adblocker -->
-<script type='text/javascript'>//<![CDATA[
-function downloadJSAtOnload() {
-    var e = document.createElement("script");
-    e.src = "https://rawcdn.githack.com/Arlina-Design/phantom/a24de19dd97cd07fa7f61e9fa29ae057e8a23dc8/antiboomclick.js", document.body.appendChild(e)
-}
-window.addEventListener ? window.addEventListener("load", downloadJSAtOnload, !1) : window.attachEvent ? window.attachEvent("onload", downloadJSAtOnload) : window.onload = downloadJSAtOnload;
-// Say Hi to Adblock
-function downloadJSAtOnload() {
-    var e = document.createElement("script");
-    e.src = "https://cdn.rawgit.com/Arlina-Design/quasar/23207858/arlinablock.js", document.body.appendChild(e)
-}
-window.addEventListener ? window.addEventListener("load", downloadJSAtOnload, !1) : window.attachEvent ? window.attachEvent("onload", downloadJSAtOnload) : window.onload = downloadJSAtOnload;
-//]]></script>
-<!-- End Disable Adblocker -->
 <!-- end ads -->
 
 <div>
