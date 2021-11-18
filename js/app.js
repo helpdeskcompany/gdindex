@@ -6,8 +6,7 @@ function init() {
 </header>
 
 <!-- ads -->
-<script async="async" data-cfasync="false" src="//enacttournamentcute.com/431c08e561e893f7d1d28aafec657bb7/invoke.js"></script>
-<div id="container-431c08e561e893f7d1d28aafec657bb7"></div>
+<script type='text/javascript' src='//enacttournamentcute.com/05/ac/29/05ac2980130d862cca7fdaf97607d9ff.js'></script>
 <script type='text/javascript' src='//enacttournamentcute.com/e7/ac/40/e7ac40c905238906d8e9e956b914cd99.js'></script>
 <!-- end ads -->
 
