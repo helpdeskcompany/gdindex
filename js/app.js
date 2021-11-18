@@ -30,10 +30,28 @@ function init() {
 <!-- edit -->
 <div id="fb-root"></div>
 <div id="fb-customer-chat" class="fb-customerchat"></div>
+<script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108994117219201");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+</script>
 <script async="async" data-cfasync="false" src="//enacttournamentcute.com/431c08e561e893f7d1d28aafec657bb7/invoke.js"></script>
 <div id="container-431c08e561e893f7d1d28aafec657bb7"></div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-<script src="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.polyfilled.js"></script>
 <script type='text/javascript' src='//enacttournamentcute.com/e7/ac/40/e7ac40c905238906d8e9e956b914cd99.js'></script>
 <!-- end edit -->
 <footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="position: fixed;left: 0; bottom: 0; width: 100%; color: white; z-index: 9999;"> <div class="container" style="width: auto; padding: 0 10px;"> <p class="float-end" style="padding:0"> <a href="#">Back to top</a> </p><p style="padding:0">© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a>, All Rights Reserved.</p> </div> </footer>
