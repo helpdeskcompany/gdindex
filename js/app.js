@@ -27,6 +27,10 @@ function init() {
   </div>
 </div>
 <br>
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat">
+</div>
 <footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="position: fixed;left: 0; bottom: 0; width: 100%; color: white; z-index: 9999;"> <div class="container" style="width: auto; padding: 0 10px;"> <p class="float-end" style="padding:0"> <a href="#">Back to top</a> </p><p style="padding:0">© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a>, All Rights Reserved.</p> </div> </footer>
   `;
     $('body').html(html);
