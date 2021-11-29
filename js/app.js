@@ -5,11 +5,6 @@ function init() {
    </div>
 </header>
 
-<!-- ads -->
-<script type='text/javascript' src='//enacttournamentcute.com/05/ac/29/05ac2980130d862cca7fdaf97607d9ff.js'></script>
-<script type='text/javascript' src='//enacttournamentcute.com/e7/ac/40/e7ac40c905238906d8e9e956b914cd99.js'></script>
-<!-- end ads -->
-
 <div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
 </div>
